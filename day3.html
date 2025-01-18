@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input:valid,
+      textarea:valid {
+        background-color: greenyellow;
+      }
+
+      input:invalid,
+      textarea:invalid {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>personal Details </legend>
+        <label>Name</label> <br />
+        <input required value="" /> <br />
+        <label>Email</label> <br />
+        <input required value="" /> <br />
+        <label>Password</label> <br />
+        <input required/> <br />
+        <input type="submit" /> <br />
+      </fieldset></br>
+    </form>
+    Disabled <input required value="" disabled/><br />
+    Readonly <input required value readonly /></br>
+    Enter minimum 3 and maximum 6 characters or digits only<input minlength="3" maxlength="6" /></br>
+    Enter minimum 3 and maximum 6 characters or digits only<textarea minlength="3" maxlength="6"></textarea></br>
+    Enter digit between 1 to 10 only<input type="number" min="7" max="10" /></br>
+    Text must be minimum 3 characters and maximum 6 characters <input autofocus type="text" pattern="\w{3,6}" /></br>
+    passward length must be 4<input autofocus type="password" pattern="\d{4,4}" /></br>
+    placeholder<input autofocus placeholder="XYZ@gmail.com" /></br>
+    It shows a Title</br>
+    Read only input <span><input type="Hii" placeholder="Hii"></span></br>
+    <span title="Hello Everybody">Hello</span></br>
+  </body>
+</html>

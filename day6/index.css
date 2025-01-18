@@ -1,0 +1,88 @@
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .col-red{
+    text-color: red;
+  }
+  .paddingStyles {
+    border: 2px solid red;
+    margin: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+  }
+  
+  .outlineStyles {
+    border: 2px dashed pink;
+    outline: 2px solid skyblue;
+    padding: 30px;
+    margin: 40px;
+    font-size: 15px;
+    outline-offset: 30px;
+    text-align: center;
+  }
+.last-line{
+  text-align: right;
+}
+  .lastlineStyles{
+    
+    text-align-last:justify ;
+  }
+.lastline{
+  text-align: left;
+}
+.linelast{
+  text-align: center;
+  
+}
+.lastStyles{
+  text-align-last:justify ;
+}
+.textdecorationstyle{
+  text-decoration: line-through blue;
+}
+.textunderline{
+  text-decoration: underline red;
+}
+.textoverline{
+  text-decoration: overline green;
+}
+.textdecorationthickness{
+  text-decoration: underline 4px purple;
+}
+.texttrasformationuppercase{
+  text-transform: uppercase;
+}
+.textlowercase{
+  text-transform: lowercase;
+}
+.textcap{
+  text-transform: capitalize;
+}
+.textindent{
+  text-indent: 20px;
+}
+.letters{
+  letter-spacing:5px ;
+  line-height: 15px;
+  word-spacing: 10px;
+}
+.text-shadow{
+  text-shadow: 2px 6px;
+}
+.fontfamily{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+.fontsize{
+  font-size: 50px;
+}
+.fonts{
+  font-size: 50%;
+}

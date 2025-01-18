@@ -1,0 +1,138 @@
+    #parentcontainer{
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+    #parentcontainer > div{
+        width: 30%;
+        height: 100px;
+        border: 2px solid royalblue;
+        margin-top:10px ;
+        margin-bottom: 10px;
+        background-color: beige;
+
+    }
+    #parentcont{
+        border: 2px solid;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        }
+        #parentcont > div{
+            width: 30%;
+            height: 100px;
+            border: 2px solid blueviolet;
+            margin-top:10px ;
+            margin-bottom: 10px;
+        background-color: beige;}
+
+     #parentconti{
+        border: 2px solid;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+        #parentconti > div{
+            width: 30%;
+            height: 100px;
+            border: 2px solid peru;
+            margin-top:10px ;
+            margin-bottom: 10px;
+        background-color: beige;}
+   #parentconti{
+        border: 2px solid;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+        #parentconti > div{
+            width: 30%;
+            height: 100px;
+            border: 2px solid red;
+            margin-top:10px ;
+            margin-bottom: 10px;
+        background-color: beige;}
+
+            #parentcontn{
+                border: 2px solid;
+                width: 100%;
+                display: flex;
+                flex-direction: column-reverse;
+                }
+                #parentcontn> div{
+                    width: 30%;
+                    height: 100px;
+                    border: 2px solid green;
+                    margin-top:10px ;
+                    margin-bottom: 10px;
+                background-color: beige;}
+           #parentconta{
+                border: 2px solid;
+                width: 100%;
+                display: flex ;
+                justify-content: space-between;
+                }
+                #parentcontt> div{
+                    width: 30%;
+                    height: 100px;
+                    border: 2px solid aqua;
+                    margin-top:10px ;
+                    margin-bottom: 10px;
+               background-color: beige; }
+                    #parentcontt{
+                        border: 2px solid;
+                        width: 100%;
+                        display: flex ;
+                        justify-content: space-around;
+                        }
+                        #parentconta> div{
+                            width: 30%;
+                            height: 100px;
+                            border: 2px solid chocolate;
+                            margin-top:10px ;
+                            margin-bottom: 10px;
+                            background-color: beige;
+                        }
+                        #parentconat{
+                            border: 2px solid;
+                            width: 100%;
+                            display: flex ;
+                            justify-content: space-evenly;
+                            }
+                            #parentconat> div{
+                                width: 30%;
+                                height: 100px;
+                                border: 2px solid khaki;
+                                margin-top:10px ;
+                                margin-bottom: 10px;
+                            background-color: beige;}
+                            #parentcon{
+                                border: 2px solid;
+                                width: 100%;
+                                display: flex ;
+                                align-items: center;
+                                }
+                                #parentcon> div{
+                                    width: 30%;
+                                    height: 100px;
+                                    border: 2px solid palevioletred;
+                                    margin-top:10px ;
+                                    margin-bottom: 10px;
+                                    background-color: beige;
+                                }
+    #flexWrapStyles {
+        border: 2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+      }
+      #flexWrapStyles > div {
+        border: 2px solid blueviolet;
+        width: 30%;
+        height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color:pink ;
+      }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.col-red{
+color:red;
+}
+.bg-blue {
+        background-color: blue;
+      }
+#myID{
+color:green;
+}
+
+</style>
+</head>
+<body>
+<p class="col-red bg-blue">This is p tag.</p>
+<p id="myID">testing id.</p>
+<h1>iframe tags</h1>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15072.882780628304!2d73.01882549864597!3d19.185560688067888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bfaa643f254f%3A0xfc87dae83501c2ef!2sDiva%2C%20Thane%2C%20Maharashtra%20400612!5e0!3m2!1sen!2sin!4v1736097774162!5m2!1sen!2sin"
+      width="400"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+></iframe> 
+     <iframe src="https://www.awdiz.in/"></iframe><br/>
+    
+ <h1>Input tags<h1/>
+  
+<input type="text"/>
+<input type="button" />
+<input type="checkbox">
+<input type="radio">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file"> <input type="hidden">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="range">
+<input type="reset">
+<input type="search">
+<forM onsubmit="handleSubmit()">
+<input type="submit" value="Login">  
+<button onclick="handleSubmit()"></button> 
+<input type="tel" placeholder="">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+<form onsubmit="handleSubmit(event)">
+<h1>form tags</h1>
+<label for="fname">First Name</label><br />
+<input type="text" id="fname" value="" /><br />
+<label for="lname">Last Name</label><br />
+<input type="text" id="lname" /><br />
+<input type="submit" value="Login" />
+</form>
+<form>
+<input type="radio" id="html" name="fav_language" value="HTML" />
+<label for="html">HTML</label><br />
+<input type="radio" id="css" name="fav_language" value="CSS" />
+<label for="css">CSS</label><br />
+<input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript" />
+<label for="javascript">JavaScript</label>
+</form>
+<form>
+      <input type="checkbox" id="fruit" name="fruit" value="apple" />
+      <label for="fruit"> I have a apple </label><br />
+      <input type="checkbox" id="fruit" name="fruit" value="oranges" />
+      <label for="fruit"> I have a oranges</label><br />
+      <input type="checkbox" id="fruie" name="fruit" value="mango" />
+      <label for="fruit"> I have a mango</label>
+    </form>
+
+    <label for="letter">Choose a letter:</label>
+    <select>
+      <option></option>
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+    </select>
+    <input />
+    <textarea rows="10" cols="10"></textarea>
+    <button ondblclick="handleSubmit()">Click me.</button> 
+  </body>
+  <script>
+    function handleSubmit(event) {
+      event.preventDefault();
+       alert("Form submitted!");
+      const userFirstName = document.getElementById("fname").value;
+      console.log(userFirstName, "userFirstName");
+    }
+  </script>
+</html>
+
